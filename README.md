@@ -56,7 +56,7 @@ O projeto utilizou o dataset **"Rossmann Store Sales"** do Kaggle, que contém d
 
 ## 🛠️ Tecnologias Utilizadas
 
-  * **Python 3.x**
+  * **Python 3**
   * **Pandas** e **NumPy** (Para manipulação e análise de dados)
   * **Scikit-learn** (Para pré-processamento, modelos de regressão e métricas de avaliação)
   * **TensorFlow** e **Keras** (Para a construção e treinamento da CNN)
