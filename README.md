@@ -63,38 +63,6 @@ O projeto utilizou o dataset **"Rossmann Store Sales"** do Kaggle, que contém d
       * Árvore de Decisão
       * XGBoost (Extreme Gradient Boosting)
 
-### Resultados
-
-A avaliação dos modelos foi realizada utilizando as métricas RMSE (Root Mean Squared Error), MAE (Mean Absolute Error) e R² (Coeficiente de Determinação).
-
-#### Comparação Final dos Modelos
-
-| Modelo | RMSE | MAE | R² |
-| :--- | :--- | :--- | :--- |
-| **XGBoost** | **2153.63** | **1578.74** | **0.5299** |
-| Árvore de Decisão | 2453.13 | 1773.71 | 0.3900 |
-| Regressão Linear | 2809.35 | 2036.86 | 0.2000 |
-
-O modelo **XGBoost** apresentou o melhor desempenho em todas as métricas, conseguindo explicar aproximadamente 53% da variância das vendas e apresentando o menor erro médio (RMSE).
-
-#### Features de Maior Impacto (XGBoost)
-
-A análise de *feature importance* do XGBoost revelou os principais fatores que influenciam as vendas:
-
-| Feature | Importance |
-| :--- | :--- |
-| Promo | 0.444452 |
-| StoreType\_b | 0.115295 |
-| StoreType\_d | 0.053184 |
-| DiaDaSemana | 0.052398 |
-| CompetitionDistance | 0.051399 |
-| Assortment\_c | 0.049474 |
-| Store | 0.049413 |
-| Assortment\_b | 0.046106 |
-| Mes | 0.038591 |
-| StoreType\_c | 0.036270 |
-
------
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -106,35 +74,4 @@ A análise de *feature importance* do XGBoost revelou os principais fatores que 
   * **Matplotlib** e **Seaborn** (Para visualização de dados)
   * **Jupyter Notebook** (Para desenvolvimento e prototipagem)
 
-## 🚀 Como Executar
 
-1.  **Clone o repositório:**
-
-    ```bash
-    git clone [URL-DO-SEU-REPOSITORIO]
-    cd [NOME-DA-PASTA-DO-REPOSITORIO]
-    ```
-
-2.  **Crie e ative um ambiente virtual:**
-
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # No Windows: venv\Scripts\activate
-    ```
-
-3.  **Instale as dependências:**
-    *(Recomendado: crie um arquivo `requirements.txt` com as bibliotecas usadas)*
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4.  **Navegue e execute os projetos:**
-    Os projetos estão organizados em notebooks Jupyter ou scripts `.py` que podem ser executados individualmente.
-
-      * Para o projeto de Raio-X, navegue até a pasta `classificacao-raio-x/`
-      * Para o projeto de Vendas, navegue até a pasta `previsao-vendas/`
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
