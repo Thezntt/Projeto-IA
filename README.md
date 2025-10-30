@@ -1,14 +1,4 @@
-Aqui está uma sugestão de README para o seu repositório no GitHub, combinando os dois projetos descritos. Este modelo é estruturado para ser claro, profissional e fácil de navegar.
 
-Basta copiar o conteúdo abaixo e colá-lo em um arquivo chamado `README.md` no seu repositório.
-
------
-
-# Portfólio de Projetos de IA: Saúde e Varejo
-
-Este repositório contém dois projetos de *Machine Learning* e *Deep Learning* que abordam problemas de classificação e regressão em domínios distintos: diagnóstico médico por imagem e previsão de vendas no varejo.
-
------
 
 ## 🏥 Projeto 1: Classificação de Imagens de Raio-X com CNNs
 
